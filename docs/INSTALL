@@ -1,0 +1,20 @@
+#
+# These are horrible installation instructions, but maybe they'll help.
+# 
+chmod -R a+rw application/logs application/cache application/data
+
+cp htaccess-dist .htaccess
+vim .htaccess
+# edit .htaccess to reflect your URL paths
+
+cp application/config/config.php-dist application/config/config.php
+vim application/config/config.php
+# edit config.php to reflect your URL paths
+
+cp application/config/friendfeed.php-dist application/config/friendfeed.php
+vim application/config/friendfeed.php
+# edit friendfeed.php to reflect your remote key
+
+curl 'http://yourdomain.com/FriendFeedArchiver/update/'
+# replace the FriendFeedArchiver base URL, and the /update/ path will perform the first archive update
+# this is in JSON media-type, so loading it in a browser will prompt for a download.

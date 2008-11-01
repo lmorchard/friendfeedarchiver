@@ -1,0 +1,29 @@
+# Turn on URL rewriting
+RewriteEngine On
+
+# Put your installation directory here:
+# If your URL is www.example.com/kohana/, use /kohana/
+# If your URL is www.example.com/, use /
+RewriteBase /~lorchard/FriendFeedArchiver/
+
+# Protect application and system files from being viewed
+RewriteCond $1 ^(application|system)
+
+# Rewrite to index.php/access_denied/URL
+RewriteRule ^(.*)$ index.php/access_denied/$1 [PT,L]
+
+# Allow these directories and files to be displayed directly:
+# - index.php (DO NOT FORGET THIS!)
+# - robots.txt
+# - favicon.ico
+# - Any file inside of the images/, js/, or css/ directories
+RewriteCond $1 ^(index\.php|robots\.txt|favicon\.ico|img|js|css)
+
+# No rewriting
+RewriteRule ^(.*)$ - [PT,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite all other URLs to index.php/URL
+RewriteRule ^(.*)$ index.php/$1 [PT,L]

@@ -1,0 +1,241 @@
+/**
+ *
+ */
+html, body.theme_default { 
+    background: #efebef;
+    background: #333;
+    color: #000; 
+    font-family: Helvetica,Arial,sans-serif; 
+    line-height: 1.75em; 
+}
+
+h1 { font-weight: bold; }
+h2 { font-weight: bold; }
+h3 { font-weight: bold; font-size: 110%; }
+h4 { font-weight: bold; font-size: 120%; }
+h5 { font-weight: bold; font-size: 100%; }
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline }
+a:visited { }
+a:active { }
+
+hr { clear: both }
+
+.clear { clear: both; }
+
+pre { font-size: 80% }
+
+.theme_default #accessibility 
+    { display: none }
+
+.theme_default #doc 
+    { padding: 1em; }
+
+.theme_default #hd 
+    { padding: 0em; position: relative; border-bottom: 2px solid #ccc; }
+.theme_default #hd h1 
+    { font-size: 180%; margin-bottom: 0.5em; } 
+.theme_default #hd h2 
+    { font-size: 165%; margin: 0 0 0.25em 1.5em; } 
+.theme_default #hd ul.nav 
+    { position: absolute; top: 0; right: 0; display: block; width: 66%; text-align: right; font-size: 107%; margin-bottom: 5px; } 
+.theme_default #hd ul.nav li 
+    { display: inline; padding-left: 0.5em; margin-left: 0.5em; font-weight: bold; }
+.theme_default #hd ul.nav li.first 
+    { border: none; }
+
+.theme_default #bd 
+    { background: #fff }
+
+.theme_default #yui-main .yui-b 
+    { padding: 0; font-size: 114% } 
+.theme_default #yui-main h2 
+    { font-size: 150%; padding-bottom: 0.75em; }
+.theme_default #yui-main p 
+    { padding-bottom: 1.0em; }
+
+.theme_default #ft 
+    { padding: 1em; border-top: 2px solid #ccc }
+
+.theme_default #ft #flavorquote 
+    { text-align: right; }
+
+.theme_default #side
+    { position: relative }
+
+.theme_default #content
+    { position: relative }
+
+.theme_default #content form ul.fields 
+    { }
+.theme_default #content form fieldset 
+    { border: 1px solid #ccc; margin: 1em; padding: 1em; }
+.theme_default #content form ul.fields li 
+    { padding-bottom: 0.5em }
+.theme_default #content form ul.fields li .required 
+    { }
+.theme_default #content form ul.fields li .errormsg,
+.theme_default #content form ul.fields li span.error 
+    { color: #f33; font-size: 80%; display: block; }
+.theme_default #content form ul.fields li label, 
+.theme_default #content form ul.fields li .spacer 
+    { display: block; float: left; text-align: right; padding-right: 0.5em; width: 15ex; }
+.theme_default #content form ul.fields li label.error 
+    { color: #f33 }
+.theme_default #content form ul.fields li input.text,
+.theme_default #content form ul.fields li textarea,
+.theme_default #content form ul.fields li input.password 
+    { padding: 3px; width: 25ex; }
+.theme_default #content form ul.fields li textarea 
+    { height: 5.5em; font-size: 85%; width: 200px; }
+.theme_default #content form ul.errors 
+    { padding-bottom: 1.5em; }
+.theme_default #content form ul.errors li 
+    { color: red; list-style: disc; margin-left: 2em; }
+.theme_default #content form ul.messages 
+    { padding-bottom: 1.5em; }
+.theme_default #content form ul.messages li 
+    { color: green; list-style: disc; margin-left: 2em; }
+
+.theme_default .with_sidebar #yui-main .yui-b
+    { margin-left: 110px; }
+.theme_default .with_sidebar #side 
+    { width: 110px }
+
+.theme_default #side .profile
+    { text-align: center; padding: 1em; }
+.theme_default #side .profile .name
+    { font-size: 100%; padding-bottom: 0.25em; }
+
+.theme_default .page_main_index #content
+    { padding: 1em; }
+.theme_default .page_main_index .profiles
+    { }
+.theme_default .page_main_index .profiles .profile
+    { float: left; display: block; text-align: center; border: 1px solid #ccc; padding: 0.25em; margin: 0.25em; width: 115px; height: 115px; }
+.theme_default .page_main_index .profiles .profile .avatar
+    { }
+.theme_default .page_main_index .profiles .profile .name
+    { font-size: 75% }
+
+.theme_default #content .profile
+    { position: relative; padding: 1em 0em 0.5em 0em; margin: 0em 1em 0.5em 1em; border-bottom: 1px solid #ccc }
+.theme_default #content .profile .avatar
+    { }
+.theme_default #content .profile .name
+    { padding: 0; font-size: 135%; position: absolute; top: 1em; left: 90px; }
+.theme_default #content .profile .name:after
+    { content: "'s FriendFeed archive" }
+
+.theme_default #content .profile .services
+    { position: absolute; right: 0; top: 1em; width: 160px; }
+.theme_default #content .profile .services .service
+    { padding: 0; font-size: 100%; float: left; display: block; width: 20px; height: 20px; }
+
+.theme_default #side .profile .services
+    { }
+.theme_default #side .profile .services .service
+    { padding: 0; font-size: 100%; float: left; display: block; width: 20px; height: 20px; }
+
+
+.theme_default #content .subscriptions
+    { padding: 1em 0.5em 1em 0.5em; margin: 1em 1em 1em 1em; border-top: 1px solid #ccc; }
+.theme_default #content .subscriptions .subscription
+    { padding: 0; font-size: 100%; float: left; display: block; width: 28px; height: 28px; font-size: 50%; overflow: hidden; background: transparent url(http://friendfeed.com/static/images/nomugshot-small.png) no-repeat center center; }
+
+.theme_default .with_sidebar .date_nav
+    { margin-top: 1em; }
+.theme_default .date_nav
+    { position: relative; height: 1em; margin: 0 0 0 0px; }
+.theme_default .date_nav .prev
+    { position: absolute; left: 16px; }
+.theme_default .date_nav .prev a
+    { font-size: 85%; padding: 2px 0 0 22px; background: transparent url(../img/famfamfam-mini/action_back.gif) no-repeat left top  }
+.theme_default .date_nav .current
+    { font-size: 85%; position: absolute; top: 0; width: 100%; text-align: center }
+.theme_default .date_nav .current a
+    { font-size: 150%; font-weight: bold; }
+.theme_default .date_nav .next 
+    { position: absolute; right: 16px; }
+.theme_default .date_nav .next a
+    { font-size: 85%; padding: 2px 22px 0 0; background: transparent url(../img/famfamfam-mini/action_forward.gif) no-repeat right top }
+
+.theme_default .entries 
+    { margin: 1em 1em 1em 1em; padding: 1em 0 0 0; border-top: 1px solid #ccc; }
+.theme_default .entries li.entry 
+    { position: relative; padding: 0px 4em 0.00em 7.00em; margin: 0px 0px 0.75em 0px; border: 1px solid #fff; }
+
+.theme_default .entries li.entry 
+    { }
+
+.theme_default .entries .entry .updated .field
+    { display: none; text-align: right; position: absolute; font-size: 75%; }
+.theme_default .entries .entry .updated .h
+    { display: block; width: 2em; top: 0; left:  0.0em; }
+.theme_default .entries .entry .updated .h:after
+    { content: ":"; }
+.theme_default .entries .entry .updated .m
+    { display: block; width: 2em; top: 0; left:  1.25em; }
+.theme_default .entries .entry .updated .a
+    { display: block; width: 2em; top: 0; left:  3.25em;  }
+
+/*
+.theme_default .entries .entry .service 
+    { position: absolute; left: 5.0em;  }
+*/
+.theme_default .entries .entry .service 
+    { margin-left: -2em; padding-bottom: 0.50em }
+.theme_default .entries .entry .service .service_icon 
+    { padding-right: 0.50em; }
+.theme_default .entries .entry .service .service_message
+    { font-size: 80%; color: #999; }
+.theme_default .entries .entry .service .service_message a
+    { color: #666; }
+
+.theme_default .entries .entry .service_message .comment_action
+    { padding: 0 0 5px 22px; background: transparent url(../img/famfamfam-mini/comment.gif) no-repeat left top }
+
+.theme_default .entries .entry .entry-title 
+    { font-size: 80%; padding-bottom: 0.25em }
+
+.theme_default .entries .entry .entry-content 
+    { font-size: 90%; }
+
+.theme_default .entries .entry .entry-content .media_items
+    { }
+.theme_default .entries .entry .entry-content .media_items .media
+    { display: inline; }
+
+.theme_default .entries .entry .entry-content .comments
+    { position: relative; }
+.theme_default .entries .entry .entry-content .comments .comment
+    { padding: 0.75em 0 0 22px; margin-left: 22px; font-size: 85%; background: transparent url(../img/famfamfam-mini/comment.gif) no-repeat left 0.75em }
+.theme_default .entries .entry .entry-content .comments .comment .author
+    { display: inline }
+.theme_default .entries .entry .entry-content .comments .comment .author:after
+    { content: ": " }
+.theme_default .entries .entry .entry-content .comments .comment .body
+    { display: inline }
+
+.theme_default .entries .entry .entry-content .likes
+    { position: relative; background: transparent url(../img/famfamfam-silk/heart.png) no-repeat left 0.75em; padding: 0.75em 0 0 22px; margin-left: 22px; font-size: 85%;  }
+.theme_default .entries .entry .entry-content .likes .like
+    { display: inline; }
+.theme_default .entries .entry .entry-content .likes .like .author
+    { display: inline; white-space: nowrap }
+.theme_default .entries .entry .entry-content .likes .like .author:after
+    { content: ", " }
+.theme_default .entries .entry .entry-content .likes .like:last-child .author:before
+    { content: "and " }
+.theme_default .entries .entry .entry-content .likes .like:only-child .author:before
+    { content: " " }
+.theme_default .entries .entry .entry-content .likes .like:last-child .author:after
+    { content: "." }
+.theme_default .entries .entry .entry-content .likes:before
+    { content: "Liked by " }
+
+.theme_default #ft #download_link
+    { color: #666; text-align: right }
+.theme_default #ft #download_link a
+    { color: #eee }

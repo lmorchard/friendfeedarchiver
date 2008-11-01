@@ -1,0 +1,11 @@
+<?php defined('SYSPATH') or die('No direct access allowed.');
+/**
+ * see: http://friendfeed.com/remotekey
+ */
+$config['nickname']        = 'YOUR_NICKNAME_HERE';
+$config['remote_key']      = 'YOUR_REMOTE_KEY_HERE';
+
+$config['api_base_url']    = 'http://friendfeed.com';
+$config['page_size']       = 30;
+$config['max_pages']       = 2;
+$config['max_profile_age'] = 300;

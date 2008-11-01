@@ -1,0 +1,14 @@
+* Group runs from the same service together, like FriendFeed
+
+* Make the views and CSS switchable on themes
+
+* Archive profile avatar locally?
+
+* Archive service icons locally?
+
+* Archive media thumbnails locally?
+
+* Return a suggested update period in the JSON update call
+
+* Fold in liked and commented-on entries?
+    * Need to rework layout a bit to distinguish entries by others
